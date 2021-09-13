@@ -21,7 +21,7 @@ app=Flask(__name__,template_folder='https://esalisbury3.github.io/eric_salisbury
 
 @app.route('/')
 def search():
-    return render_template("index.html")
+    return render_template("https://esalisbury3.github.io/eric_salisbury.github.io/index.html")
 
 #-------------------------------------------------------------------------------
 #Graph page
@@ -63,7 +63,7 @@ def goals_page():
             graphJSON=''
         #name=create_name()
         #graph=create_plot()
-        return render_template('goals.html', name=company_name, plot=graphJSON, cname=cname)
+        return render_template('https://esalisbury3.github.io/eric_salisbury.github.io/goals.html', name=company_name, plot=graphJSON, cname=cname)
 
 #-------------------------------------------------------------------------------
 #Run app
