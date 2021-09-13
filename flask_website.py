@@ -11,7 +11,7 @@ import pandas as pd
 #-------------------------------------------------------------------------------
 #Initialize app
 
-app=Flask(__name__,template_folder='/Users/EricSalisbury/Desktop/Sun_work')
+app=Flask(__name__,template_folder='goals')
 
 #-------------------------------------------------------------------------------
 #Home page
@@ -21,7 +21,7 @@ app=Flask(__name__,template_folder='/Users/EricSalisbury/Desktop/Sun_work')
 
 @app.route('/')
 def search():
-    return render_template("home.html")
+    return render_template("index.html")
 
 #-------------------------------------------------------------------------------
 #Graph page
