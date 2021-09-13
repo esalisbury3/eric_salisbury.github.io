@@ -11,7 +11,7 @@ import pandas as pd
 #-------------------------------------------------------------------------------
 #Initialize app
 
-app=Flask(__name__,template_folder='goals.github.io')
+app=Flask(__name__,template_folder='https://goals.github.io')
 
 #-------------------------------------------------------------------------------
 #Home page
